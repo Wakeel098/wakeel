@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="imgs/favi.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Merriweather:wght@300&family=Sacramento&display=swap" rel="stylesheet">
+<script>
+      function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+</script>
+</head>
+<body>
+<div class="header">
+ <table>
+  <tr>
+      <td> <button   class="dropbtn">Home</button></td>
+    
+   <td> <button  class="dropbtn">About</button></td> 
+    <td>
+      <div class="dropdown">
+        
+        <button onclick="myFunction()" class="dropbtn" style="padding-right: 10px;">Projects</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="project1.html">A Bussiness Website</a>
+          <a href="#">working on other projects</a>
+          <a href="#"></a>
+        </div>
+      </div>
+    </td> 
+  </tr>
+  </table>
+
+</div>
+    <div class="top" >
+    <img class="cloud1" src="imgs/cloud2.png" alt="">
+    <h1>I'm Wakeel</h1>
+    <p  style="color: #66bfbf">a self paced web developer</p>
+    <img class="cloud2" src="imgs/cloud2.png" alt="">
+    <img class="mountain" src="imgs/mountain.png   " alt="">
+</div> 
+<div class="middle-container">
+    <div class="profile">
+      <img  class="p" src="imgs/photo.jpg" alt="">
+      <br>
+      <br>
+      <h2>Hello Everyone.</h2>
+      <br>
+      <p>As a student of NIT Srinagar, I am currently in my 2nd year pursuing a BTech in Electronics and Communication Engineering. I am dedicated to my studies and constantly strive to improve my knowledge and understanding of the field. I am actively looking for opportunities to apply my education and skills in real-world settings.</p>
+    </div>
+    <hr>
+    <br>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <h3> Programing Languages</h3>
+        <img class="" src="imgs/c-logo.png" alt="">
+        
+        <p>I have a strong foundation in programming languages such as C and C++, and am currently expanding my knowledge in Data Structure and Algorithms.</p>
+      </div>
+      <div class="skill-row">
+         <br>
+         
+        <h3>Development</h3>
+        <img class="abc" src="imgs/development.png" alt="">
+        <p>I have experience in web development, having learned HTML and CSS. I am dedicated to continuously learning and expanding my skill set in order to excel in my field.</p>
+         
+      </div>
+      <div class="skill-row">
+        <br>
+        
+       <h3>Other Skills</h3>
+       <img class="abc" src="imgs/joke.png" alt="">
+       
+       
+       <p>Beyond all these skills, i am expert in making to others laugh 😊 ,so  that they could take relief from mental stress in this fast,competitive and cruel world.If you are tired by doing same kind of stuff. Contact me at below address </p>
+     </div>
+    </div>
+    <hr>
+    <br>
+    <div class="contact-me">
+      <div class="cen">
+      <table>
+        <td>
+      <img class="mern" class="contact" src="imgs/contact.png" alt="">
+    </td>
+    <td> 
+        <h2>Get In Touch</h2>
+      </td>
+      </table>
+    </div>
+        <h3>If you are good at joke cracking as much as I am</h3>
+        <p>Lets crack together and enjoy🤣 </p>
+        <br>
+         
+        <a class="btn" href="mailto:kumarwakeel121@gmail.com">CONTACT ME</a>
+      
+    </div>
+
+  
+  <br>
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+    &nbsp;&nbsp;
+    <a class="footer-link" href="https://twitter.com/">Twitter</a> &nbsp;&nbsp;
+    <a class="footer-link" href="https://www.appbrewery.co/">Website</a> &nbsp;&nbsp;
+    <br>
+    <p>© 2023 Wakeel Kumar.</p>
+  </div>
+</body>
+</html>
